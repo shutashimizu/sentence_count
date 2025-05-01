@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>文字カウント</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="text">
+		<h1>文字カウント</h1>
+		
+		<p>文章を入力してください。<br>
+			測定する文章を入れ終わったらカウントボタンを押してください。<br>
+			入力された文章の文字数をカウントして表示します。
+		</p>
+	</div>
+	
+	<div class="textbox">
+		<form action="count" method="post">
+				<textarea name="sentence" placeholder="文章を入力してください" required></textarea><br><br>
+				<input type="submit" value="カウント">
+		</form>
+	</div>
+</body>
+</html>
